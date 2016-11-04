@@ -1,0 +1,13 @@
+{
+  "name": "react-2",
+  "version": "0.0.0",
+  "description": "",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babelbuild":"babel --presets react,es2015 js/source/ -d js/build",
+    "build":"browserify js/build/app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
